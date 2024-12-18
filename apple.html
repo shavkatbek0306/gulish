@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="/images/bank_pay.png">
+    <style>
+      /* Mahsulotlar konteyneri uchun */
+      #product-container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px; /* Kartalar orasidagi bo'shliq */
+          justify-content: space-between; /* Karta orasida bo'sh joyni taqsimlash */
+      }
+  
+      /* Har bir card (telefon kartasi) uchun */
+      .card {
+          width: calc(33.333% - 20px); /* Har bir card 3 ta ustundan bo'ladi, bo'shliqni hisobga olgan holda */
+          margin-bottom: 20px;
+      }
+  
+      /* Agar ekran kichik bo'lsa, 2 ta karta bo'lishini ta'minlash */
+      @media (max-width: 992px) {
+          .card {
+              width: calc(50% - 20px); /* Ekran kichik bo'lsa, har qatorda 2 ta card bo'ladi */
+          }
+      }
+  
+      /* Agar ekran juda kichik bo'lsa, 1 ta karta bo'lishi kerak */
+      @media (max-width: 576px) {
+          .card {
+              width: 100%; /* Ekran juda kichik bo'lsa, bitta card bo'ladi */
+          }
+      }
+  </style>
+  
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>APPLE</h1>
+        <form>
+            <input type="text" name="search" placeholder="Search.." class="form-control">
+        </form>
+        
+        <!-- Product cards container -->
+        <div id="product-container" class="card-group">
+            <div class="card-group">
+                <div class="card">
+                  <img src="images/4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text">Apple iPhone 15 Pro 128GB Single(Qora Titan)</p>
+                    <p class="card-text"> 12 868 000 so`m</p>
+                    <p class="card-text">dan 1 501 267 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/5.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text"> Apple iPhone 13 128GB (Pushti)</p>
+                    <p class="card-text"> 8 833 000 so`m</p>
+                    <p class="card-text">dan 1 030 517 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/6.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Apple</h5>
+                      <p class="card-text">Apple iPhone 13 128GB (Yashil)</p>
+                      <p class="card-text"> 8 833 000 so`m</p>
+                      <p class="card-text">dan 1 030 517 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/7.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text">Apple iPhone 13 128GB Space (Kulrang)</p>
+                    <p class="card-text">  8 833 000 so`m</p>
+                    <p class="card-text">dan 1 030 517 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/8.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text"> Apple iPhone 13 128GB Single (Ko`k)</p>
+                    <p class="card-text"> 8 833 000 so`m</p>
+                    <p class="card-text">dan 1 030 517 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/9.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Apple</h5>
+                      <p class="card-text">Apple iPhone 15 Pro Max 256GB Single(Natural) </p>
+                      <p class="card-text"> 15 909 000 so`m</p>
+                      <p class="card-text">dan 1 856 050 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text">Apple iPhone 15 Pro Max 256GB Single(Ko`k Titan)</p>
+                    <p class="card-text">  15 909 000 so`m</p>
+                    <p class="card-text">dan 1 856 050 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/10.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text"> Apple iPhone 15 Pro Max 256GB Single(Oq)</p>
+                    <p class="card-text">  15 909 000 so`m</p>
+                    <p class="card-text">dan 1 856 050 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Apple</h5>
+                      <p class="card-text">Apple iPhone 15 Pro Max 256GB Single(Qora Titan) </p>
+                      <p class="card-text"> 15 909 000 so`m</p>
+                      <p class="card-text">dan 1 856 050 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text">Apple iPhone 15 Pro 1TB Single(Ko`k Titan)</p>
+                    <p class="card-text">  22 196 000 so`m</p>
+                    <p class="card-text">dan 2 589 533 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/10.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text"> Apple iPhone 15 Pro 1TB Single(Oq)</p>
+                    <p class="card-text">  22 196 000 so`m</p>
+                    <p class="card-text">dan 2 589 533 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Apple</h5>
+                      <p class="card-text">Apple iPhone 15 Pro 1TB Single(Qora Titan) </p>
+                      <p class="card-text"> 22 196 000 so`m</p>
+                      <p class="card-text">dan 2 589 533 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/9.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text">Apple iPhone 15 Pro 1TB Single(Kulrang) </p>
+                    <p class="card-text">  22 196 000 so`m</p>
+                    <p class="card-text">dan 2 589 533 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/12.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text"> Apple iPhone 16 Pro 128GB (Desert Titanium)</p>
+                    <p class="card-text">  14 626 000 so`m</p>
+                    <p class="card-text">dan 1 706 367 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/13.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Apple</h5>
+                      <p class="card-text">Apple iPhone 16 Pro 128GB (Oq Titanium) </p>
+                      <p class="card-text"> 14 626 000 so`m</p>
+                      <p class="card-text">dan 1 706 367 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+            <div class="card-group">
+                <div class="card">
+                  <img src="images/14.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text">Apple iPhone 16 Pro 128GB (Qora Titanium) </p>
+                    <p class="card-text">  14 626 000 so`m</p>
+                    <p class="card-text">dan 1 706 367 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/16.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text"> Apple iPhone 16 Pro 128GB (Natural Titanium)</p>
+                    <p class="card-text">  14 626 000 so`m</p>
+                    <p class="card-text">dan 1 706 367 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/13.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Apple</h5>
+                      <p class="card-text">Apple iPhone 16 Pro 256GB Single(Oq Titanium) </p>
+                      <p class="card-text"> 17 047 000 so`m</p>
+                      <p class="card-text">dan 1 988 817 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/14.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text">Apple iPhone 16 Pro 256GB (Qora Titanium) </p>
+                    <p class="card-text">  17 047 000 so`m</p>
+                    <p class="card-text">dan 1 988 817 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/16.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text"> Apple iPhone 16 Pro 256GB (Natural Titanium)</p>
+                    <p class="card-text">  17 047 000 so`m</p>
+                    <p class="card-text">dan 1 988 817 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/12.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Apple</h5>
+                      <p class="card-text">Apple iPhone 16 Pro 256GB Single(Desert Titanium) </p>
+                      <p class="card-text"> 17 047 000 so`m</p>
+                      <p class="card-text">dan 1 988 817 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/20a.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text">Apple iPhone 16 Pro 512GB (Desert Titanium) </p>
+                    <p class="card-text">  19 279 000 so`m</p>
+                    <p class="card-text">dan 2 249 217 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/21a.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text"> Apple iPhone 16 Pro 512GB (Natural Titanium)</p>
+                    <p class="card-text">  19 279 000 so`m</p>
+                    <p class="card-text">dan 2 249 217 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/22a.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Apple</h5>
+                      <p class="card-text">Apple iPhone 16 Pro 512GB (Oq Titanium) </p>
+                      <p class="card-text"> 19 279 000 so`m</p>
+                      <p class="card-text">dan 2 249 217 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+
+             
+
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/23a.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text">Apple iPhone 16 Plus 128GB (Ultramarine) </p>
+                    <p class="card-text">  13 390 000 so`m</p>
+                    <p class="card-text">dan 1 562 167 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/24a.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text"> Apple iPhone 16 Plus 128GB (Teal)</p>
+                    <p class="card-text">  13 390 000 so`m</p>
+                    <p class="card-text">dan 1 562 167 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/25a.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Apple</h5>
+                      <p class="card-text">Apple iPhone 16 Plus 128GB (Qora Titanium) </p>
+                      <p class="card-text"> 13 390 000 so`m</p>
+                      <p class="card-text">dan 1 562 167 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/26a.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text">Apple iPhone 16 Plus 128GB (Oq) </p>
+                    <p class="card-text">  13 390 000 so`m</p>
+                    <p class="card-text">dan 1 562 167 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/27a.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text"> Apple iPhone 16 Plus 128GB (Pushti)</p>
+                    <p class="card-text">  13 390 000 so`m</p>
+                    <p class="card-text">dan 1 562 167 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/28a.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Apple</h5>
+                      <p class="card-text">Apple iPhone 13 128GB (Pushti Titanium) </p>
+                      <p class="card-text"> 8 950 000 so`m</p>
+                      <p class="card-text">dan 1 044 167 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/29a.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text">Apple iPhone 13 128GB (Yashil) </p>
+                    <p class="card-text">  8 950 000 so`m</p>
+                    <p class="card-text">dan 1 044 167 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/30a.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Apple</h5>
+                    <p class="card-text"> Apple iPhone 13 128GB (Qora)</p>
+                    <p class="card-text">  8 950 000 so`m</p>
+                    <p class="card-text">dan 1 044 167 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/31a.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Apple</h5>
+                      <p class="card-text">Apple iPhone 13 128GB (Ko`k) </p>
+                      <p class="card-text"> 8 950 000 so`m</p>
+                      <p class="card-text">dan 1 044 167 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+
+
+              
+
+
+            
+            
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            
+        </div>
+
+
+        <div class="pagination">
+          <button onclick="showPage(1)"><a href="apple.html">1</a></button>
+          <button onclick="showPage(2)"><a href="b.html">keyingi sahifa</a> </button>
+      </div>
+  
+        <nav>
+          <ul class="pagination" id="pagination"></ul>
+      </nav>
+
+        <!-- Pagination -->
+        
+    </div>
+
+    <script>
+        // Product data
+        const products = [
+        {title: "Apple iPhone 15 Pro 1TB Single(Qora Titan)", price:"22 196 000 so`m",monthly:"dan 2 589 533 UZS/oyiga", img:"4.jpg"},
+        {title: "Apple iPhone 15 Pro 1TB Single(Oq)", price:"22 196 000 so`m", monthly:"dan 2 589 533 UZS/oyiga", img: "10.jpg"},
+        {title: "Apple iPhone 15 Pro 1TB Single(Ko`k Titan)", price:"22 196 000 so`m", monthly: "dan 2 589 533 UZS/oyiga", img: "3.jpg"},
+        {title: "Apple iPhone 15 Pro 1TB Single(Kulrang)" , price: "22 196 000 so`m", monthly: "dan 2 589 533 UZS/oyiga", img: "9.jpg"},
+        {title: "Apple iPhone 16 Pro 128GB (Desert Titanium)" , price:"14 626 000 so`m", monthly: "dan 1 706 367 UZS/oyiga", img:"12.jpg"},
+       {title:"Apple iPhone 16 Pro 128GB (Oq Titanium)", price: "14 626 000 so`m", monthly: "dan 1 706 367 UZS/oyiga", img:"9.jpg"}, 
+        {title:"Apple iPhone 16 Pro 128GB (Qora Titanium)", price: "14 626 000 so`m", monthly: "dan 1 706 367 UZS/oyiga", img:"9.jpg"},
+        {title:" Apple iPhone 16 Pro 128GB (Natural Titanium)", price: " 14 626 000 so`m", monthly: "dan 1 706 367 UZS/oyiga", img:"16.jpg"},
+        {title:"Apple iPhone 16 Pro 256GB (Qora Titanium)", price: "17 047 000 so`m", monthly: "dan 1 988 817 UZS/oyiga", img:"14.jpg"},
+         {title:"Apple iPhone 16 Pro 256GB Single(Oq Titanium)", price: "17 047 000 so`m", monthly: "dan 1 988 817 UZS/oyiga", img:"13.jpg"},
+         {title:"Apple iPhone 16 Pro 256GB (Natural Titanium)", price: "17 047 000 so`m", monthly: "dan 1 988 817 UZS/oyiga", img:"16.jpg"},
+          {title:"Apple iPhone 16 Pro 256GB Single(Desert Titanium)", price: "17 047 000 so`m", monthly: "dan 1 988 817 UZS/oyiga", img:"12.jpg"},
+            { title: "Apple iPhone 15 Pro 128GB Single(Oq)", price: "12 868 000 so`m", monthly: "dan 1 501 267 UZS / oyiga", img: "1.jpg" },
+            { title: "Apple iPhone 15 Pro 128GB Single(Kulrang)", price: "12 868 000 so`m", monthly: "dan 1 501 267 UZS / oyiga", img: "2.jpg" },
+            { title: "Apple iPhone 15 Pro 128GB Single(Ko`k Titan)", price: "12 868 000 so`m", monthly: "dan 1 501 267 UZS / oyiga", img: "3.jpg" },
+            { title: "Apple iPhone 15 Pro 128GB Single(Qora Titan)", price: "12 868 000 so`m", monthly: "dan 1 501 267 UZS / oyiga", img: "4.jpg" },
+            { title: "Apple iPhone 13 128GB (Pushti)", price: "8 833 000 so`m", monthly: "dan 1 030 517 UZS / oyiga", img: "5.jpg" },
+            { title: "Apple iPhone 13 128GB (Yashil)", price: "8 833 000 so`m", monthly: "dan 1 030 517 UZS / oyiga", img: "6.jpg" },
+            { title: "Apple iPhone 13 128GB Space (Kulrang)", price: "8 833 000 so`m", monthly: "dan 1 030 517 UZS / oyiga", img: "7.jpg" },
+            { title: "Apple iPhone 13 128GB Single (Ko`k)", price: "8 833 000 so`m", monthly: "dan 1 030 517 UZS / oyiga", img: "8.jpg" },
+            { title: "Apple iPhone 15 Pro Max 256GB Single(Natural)", price: "15 909 000 so`m", monthly: "dan 1 856 050 UZS / oyiga", img: "9.jpg" },
+            {title: "Apple iPhone 16 Pro 512GB (Desert Titanium)", price:"19 279 000 so`m",monthly:"dan 2 249 217 UZS/oyiga", img:"20a.jpg"},
+            {title:"Apple iPhone 16 Pro 512GB (Natural Titanium)", price:"19 279 000 so`m", monthly:"dan 2 249 217 UZS/oyiga",img:"21a.jpg"},
+            {title:"Apple iPhone 16 Pro 512GB (Oq Titanium)",price:"19 279 000 so`m", monthly: "dan 2 249 217 UZS/oyiga",img:"22a.jpg"},
+            {title:"Apple iPhone 16 Plus 128GB (Ultramarine)",price:"13 390 000 so`m",monthly:"dan 1 562 167 UZS/oyiga", img:"23a.jpg"},
+            {title: "Apple iPhone 16 Plus 128GB (Teal)", price:"13 390 000 so`m", monthly:"dan 1 562 167 UZS/oyiga", img: "24a.jpg"},
+            {title:"Apple iPhone 16 Plus 128GB (Qora Titanium)", price:"13 390 000 so`m",monthly:"dan 1 562 167 UZS/oyiga",img:"25a.jpg"},
+            {title:"Apple iPhone 16 Plus 128GB (Oq)",price:"13 390 000 so`m",monthly:"dan 1 562 167 UZS/oyiga",img:"26a.jpg"},
+            {title:"Apple iPhone 16 Plus 128GB (Pushti)",price:"13 390 000 so`m",monthly:"dan 1 562 167 UZS/oyiga",img:"27a.jpg"},
+            {title:"Apple iPhone 13 128GB (Pushti Titanium)",price:"8 950 000 so`m", monthly:"dan 1 044 167 UZS/oyiga", img:"28a.jpg"},
+            {title:"Apple iPhone 13 128GB (Yashil)",price:"8 950 000 so`m", monthly:"dan 1 044 167 UZS/oyiga", img:"29a.jpg"},
+            {title:"Apple iPhone 13 128GB (Qora)",price:"8 950 000 so`m", monthly:"dan 1 044 167 UZS/oyiga", img:"30a.jpg"},
+            {title:"Apple iPhone 13 128GB (Ko`k)",price:"8 950 000 so`m", monthly:"dan 1 044 167 UZS/oyiga", img:"31a.jpg"}
+
+          ];
+
+        let currentPage = 1;
+        const phonesPerPage = 33; // Har bir sahifada ko'rsatiladigan telefonlar soni
+
+
+        // Function to display products based on current page
+       // Function to display products based on current page
+function displayProducts(page) {
+    const startIndex = (page - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const currentProducts = products.slice(startIndex, endIndex);
+
+    // Clear the previous content
+    const productContainer = document.getElementById("product-container");
+    productContainer.innerHTML = "";
+
+    currentProducts.forEach(product => {
+        const card = `
+            <div class="card">
+                <img src="${product.img}" class="card-img-top" alt="${product.title}">
+                <div class="card-body">
+                    <h5 class="card-title">${product.title}</h5>
+                    <p class="card-text">${product.price}</p>
+                    <p class="card-text">${product.monthly}</p>
+                    <a href="#" class="btn btn-primary">SAVATGA</a>
+                </div>
+            </div>
+        `;
+        productContainer.innerHTML += card;
+    });
+}
+
+
+        // Function to generate pagination
+        function generatePagination() {
+            const pageCount = Math.ceil(products.length / itemsPerPage);
+            const paginationContainer = document.getElementById("pagination");
+            paginationContainer.innerHTML = "";
+
+            for (let i = 1; i <= pageCount; i++) {
+                const pageItem = `
+                    <li class="page-item ${i === currentPage ? 'active' : ''}">
+                        <a class="page-link" href="#" onclick="goToPage(${i})">${i}</a>
+                    </li>
+                `;
+                paginationContainer.innerHTML += pageItem;
+            }
+        }
+
+        // Function to go to the selected page
+        function goToPage(page) {
+            currentPage = page;
+            displayProducts(currentPage);
+            generatePagination();
+        }
+
+        // Initial display
+        displayProducts(currentPage);
+        generatePagination();
+    </script>
+</body>
+</html>
+
+
+
+

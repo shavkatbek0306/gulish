@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zamonaviy telefonlar</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="header"> 
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.jpg" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Bosh sahifa</a></li>
+                    <li><a href="katalog.html">Katalog</a></li>
+                    <li><a href="Account.html">Ro'yxatdan o'tish</a></li>
+                    <li><a href="insertproduct.html">Mahsulot qo'shish</a></li>
+                </ul>
+            </nav>
+            
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+</div>
+
+<!--------------------login and sign up page------->
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/asosiy.jpg" width="100%">
+            </div>
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Kirish</span>
+                        <span onclick="register()">Ro'yxatdan o'tish</span>
+                        <hr id="Indicator">
+                    </div>
+
+                    <form id="LoginForm">
+                        <input type="text" placeholder="Foydalanuvchi nomi">
+                        <input type="password" placeholder="Parol">
+                        <button type="submit" class="btn">Kirish</button>
+                        <a href="">Parolni unutdingizmi?</a>
+                    </form>
+
+                    <form id="RegForm">
+                        <input type="text" placeholder="Foydalanuvchi nomi">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Parol">
+                        <button type="submit" class="btn">Ro'yxatdan o'tish</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------footer-------------------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Ilovamizni Yuklab Oling</h3>
+                <p>Android va IOS uchun ilovamizni yuklab oling</p>
+                <div class="app-logo">
+                    <img src="images/img11.png">
+                    <img src="images/img12.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo2.png" alt="">
+                <p>Bizning maqsadimiz sizga eng yaxshi mahsulotlarni eng yaxshi narxlarda taqdim etishdir</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Foydali Havolalar</h3> 
+                <ul>
+                    <li>Blog posti</li>
+                    <li>Qaytarish Siyosati</li>
+                    <li>Biz haqimizda</li>
+                    <li>Qoidalar</li>
+                </ul>                   
+            </div>
+            <div class="footer-col-4">
+                <h3>Bizni Kuzatib Boring</h3> 
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>                   
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+
+<!--------js for toggle---------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+        } else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
+</html>
+
+
+

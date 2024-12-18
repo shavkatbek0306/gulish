@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGMACHALI TELEFONLAR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="/images/bank_pay.png">
+    <style>
+      /* Mahsulotlar konteyneri uchun */
+      #product-container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px; /* Kartalar orasidagi bo'shliq */
+          justify-content: space-between; /* Karta orasida bo'sh joyni taqsimlash */
+      }
+  
+      /* Har bir card (telefon kartasi) uchun */
+      .card {
+          width: calc(33.333% - 20px); /* Har bir card 3 ta ustundan bo'ladi, bo'shliqni hisobga olgan holda */
+          margin-bottom: 20px;
+      }
+  
+      /* Agar ekran kichik bo'lsa, 2 ta karta bo'lishini ta'minlash */
+      @media (max-width: 992px) {
+          .card {
+              width: calc(50% - 20px); /* Ekran kichik bo'lsa, har qatorda 2 ta card bo'ladi */
+          }
+      }
+  
+      /* Agar ekran juda kichik bo'lsa, 1 ta karta bo'lishi kerak */
+      @media (max-width: 576px) {
+          .card {
+              width: 100%; /* Ekran juda kichik bo'lsa, bitta card bo'ladi */
+          }
+      }
+  </style>
+  
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>TUGMACHALI TELEFONLAR</h1>
+        <form>
+            <input type="text" name="search" placeholder="Search.." class="form-control">
+        </form>
+
+        <!-- Product cards container -->
+        <div id="product-container" class="card-group">
+           
+            
+            <div class="card-group">
+                <div class="card">
+                  <img src="images/1n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text">102-Novey  (Qora Test)</p>
+                    <p class="card-text"> 3 919 000 so`m</p>
+                    <p class="card-text">dan 457 217 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/2n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey C10 CDMA:Perfektum (Qora)</p>
+                    <p class="card-text">377 000 so`m</p>
+                    <p class="card-text">dan 43 983 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/3n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title"> Novey </h5>
+                      <p class="card-text"> Novey C10 CDMA:Perfectum (Moviy)</p>
+                      <p class="card-text"> 377 000 so`m</p>
+                      <p class="card-text">dan 43 983 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+              
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/4n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey C10 CDMA:Perfectum (Kulrang)</p>
+                    <p class="card-text"> 377 000 so`m</p>
+                    <p class="card-text">dan 43 983 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/5n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey Senat (Qizil) GSM </p>
+                    <p class="card-text"> 611 000 so`m</p>
+                    <p class="card-text">dan 71 283 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/6n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title"> Novey </h5>
+                      <p class="card-text"> Novey Senat (Kulrang) GSM </p>
+                      <p class="card-text"> 611 000 so`m</p>
+                      <p class="card-text">dan 71 283 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+            
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/7n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey Senat (Moviy) GSM </p>
+                    <p class="card-text"> 611 000 so`m</p>
+                    <p class="card-text">dan 71 283 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/8n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey Z550 (Qora)  </p>
+                    <p class="card-text"> 481 000 so`m</p>
+                    <p class="card-text">dan 56 117 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/9n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title"> Novey </h5>
+                      <p class="card-text"> Novey Z550 (Chrome) </p>
+                      <p class="card-text"> 481 000 so`m</p>
+                      <p class="card-text">dan 56 117 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+            
+            
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/10n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey Z550 (Oltin) </p>
+                    <p class="card-text"> 481 000 so`m</p>
+                    <p class="card-text">dan 56 117 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/11n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey N880 (Oltin)  </p>
+                    <p class="card-text"> 611 000 so`m</p>
+                    <p class="card-text">dan 71 283 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/12n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title"> Novey </h5>
+                      <p class="card-text"> Novey N880 (Kumush) </p>
+                      <p class="card-text"> 546 000 so`m</p>
+                      <p class="card-text">dan 63 700 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+            
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/13n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey N670 (Qora) </p>
+                    <p class="card-text"> 338 000 so`m</p>
+                    <p class="card-text">dan 39 433 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/14n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey N670 (Kumush)  </p>
+                    <p class="card-text"> 338 000 so`m</p>
+                    <p class="card-text">dan 39 433 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/15n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title"> Novey </h5>
+                      <p class="card-text"> Novey N670 (Choco) </p>
+                      <p class="card-text"> 338 000 so`m</p>
+                      <p class="card-text">dan 39 433 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+            
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/16n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey X50 (Kumush) </p>
+                    <p class="card-text"> 325 000 so`m</p>
+                    <p class="card-text">dan 37 917 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/17n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey X50 (Qora)  </p>
+                    <p class="card-text"> 325 000 so`m</p>
+                    <p class="card-text">dan 37 917 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/18n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title"> Novey </h5>
+                      <p class="card-text"> Novey T515 (Qora) </p>
+                      <p class="card-text"> 377 000 so`m</p>
+                      <p class="card-text">dan 43 983 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/19n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey T250 (Qora) </p>
+                    <p class="card-text"> 364 000 so`m</p>
+                    <p class="card-text">dan 42 467 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/20n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey T100 (Qora-Kumush)  </p>
+                    <p class="card-text"> 247 000 so`m</p>
+                    <p class="card-text">dan 28 817 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/21n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title"> Novey </h5>
+                      <p class="card-text"> Novey P80 (To`q sariq) </p>
+                      <p class="card-text"> 351 000 so`m</p>
+                      <p class="card-text">dan 40 950 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/22n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey P80 (Yashil) </p>
+                    <p class="card-text"> 351 000 so`m</p>
+                    <p class="card-text">dan 40 950 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/23n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey P50 (Qora)  </p>
+                    <p class="card-text"> 351 000 so`m</p>
+                    <p class="card-text">dan 40 950 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/24n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title"> Novey </h5>
+                      <p class="card-text"> Novey P50 (Qora-Qizil) </p>
+                      <p class="card-text"> 351 000 so`m</p>
+                      <p class="card-text">dan 40 950 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/25n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey P40 (Qora) </p>
+                    <p class="card-text"> 312 000 so`m</p>
+                    <p class="card-text">dan 36 400 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/26n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey P30 (Choco)  </p>
+                    <p class="card-text"> 312 000 so`m</p>
+                    <p class="card-text">dan 36 400 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/27n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title"> Novey </h5>
+                      <p class="card-text"> Novey P30 (Qora) </p>
+                      <p class="card-text"> 312 000 so`m</p>
+                      <p class="card-text">dan 36 400 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+
+
+              
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/28n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey P30 (Kulrang) </p>
+                    <p class="card-text"> 312 000 so`m</p>
+                    <p class="card-text">dan 36 400 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/29n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Novey </h5>
+                    <p class="card-text"> Novey P20 (Kulrang)  </p>
+                    <p class="card-text"> 273 000 so`m</p>
+                    <p class="card-text">dan 31 850 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/30n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title"> Novey </h5>
+                      <p class="card-text"> Novey P20 (Qora-Qizil) </p>
+                      <p class="card-text"> 273 000 so`m</p>
+                      <p class="card-text">dan 31 850 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+        
+        
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            
+        </div>
+
+        <div class="pagination">
+            <button onclick="showPage(1)"><a href="anokiya.html">1</a></button>
+            <button onclick="showPage(2)"><a href="bnokiya.html">keyingi sahifa</a></button>
+            
+        </div>
+    
+          <nav>
+            <ul class="pagination" id="pagination"></ul>
+        </nav>
+  
+          <!-- Pagination -->
+          
+      </div>
+  
+      <script>
+          // Product data
+          const products = [
+          {title: "102-Novey (Qora Test)", price:" 3 919 000 so`m",monthly:"dan 457 217 UZS/oyiga", img:"1n.jpg"},
+          {title: "Novey C10 CDMA:Perfektum (Qora)", price:"377 000 so`m", monthly:"dan 43 983 UZS/oyiga", img: "2n.jpg"},
+          {title: "Novey C10 CDMA:Perfektum (Moviy)", price:"377 000 so`m", monthly: "dan 43 983 UZS/oyiga", img: "3n.jpg"},
+          {title: "Novey C10 CDMA:Perfektum (Kulrang)" , price: "377 000 so`m", monthly: "dan 43 983 UZS/oyiga", img: "4n.jpg"},
+          {title: "Novey Senat (Qizil) GSM" , price:"611 000 so`m", monthly: "dan 71 283 UZS/oyiga", img:"5n.jpg"},
+         {title:"Novey Senat (Kulrang) GSM", price: "611 000 so`m", monthly: "dan 71 283 UZS/oyiga", img:"6n.jpg"}, 
+          {title:"Novey Senat (Moviy) GSM", price: "611 000 so`m", monthly: "dan 71 283 UZS/oyiga", img:"7n.jpg"},
+          {title:"Novey Z550 (Qora)", price: " 481  000 so`m", monthly: "dan 56 117 UZS/oyiga", img:"8n.jpg"},
+          {title:"Novey Z550 (Chrome)", price: "481 000 so`m", monthly: "dan 56 117 UZS/oyiga", img:"9n.jpg"},
+           {title:"Novey Z550 (Oltin)", price: "481 000 so`m", monthly: "dan 56 117 UZS/oyiga", img:"10n.jpg"},
+           {title:"Novey N880 (Oltin)", price: "611 000 so`m", monthly: "dan 71 283 UZS/oyiga", img:"11n.jpg"},
+            {title:"Novey N880 (Kumush)", price: "611 000 so`m", monthly: "dan 71 283 UZS/oyiga", img:"12n.jpg"},
+          { title: "Novey N670 (Qora)", price: "338 000 so`m", monthly: "dan 39 433 UZS / oyiga", img: "13n.jpg" },
+              { title: "Novey N670 (Kumush)", price: "338 000 so`m", monthly: "dan 39 433 UZS / oyiga", img: "14n.jpg" },
+              { title: "Novey N670 (Choco)", price: "338 000 so`m", monthly: "dan 39 433 UZS / oyiga", img: "15n.jpg" },
+              { title: "Novey X50 (Kumush)", price: "325 000 so`m", monthly: "dan 37 917 UZS / oyiga", img: "16n.jpg" },
+              { title: "Novey X50 (Qora)", price: "325 000 so`m", monthly: "dan 37 917 UZS / oyiga", img: "17n.jpg" },
+              { title: "Novey T515 (Qora)", price: "377 000 so`m", monthly: "dan 43 983 UZS / oyiga", img: "18n.jpg" },
+              { title: "Novey T250 (Qora)", price: "364 000 so`m", monthly: "dan 42 467 UZS / oyiga", img: "19n.jpg" },
+              { title: "Novey T100 (Qora-Kumush)", price: "247 000 so`m", monthly: "dan 28 817 UZS / oyiga", img: "20n.jpg" },
+              { title: "Novey P80 (To`q sariq)", price: "351 000 so`m", monthly: "dan 40 950 UZS / oyiga", img: "21n.jpg" },
+              {title: "Novey P80 (Yashil)", price:"351 000 so`m",monthly:"dan 40 950 UZS/oyiga", img:"22n.jpg"},
+              {title:"Novey P50 (Qora)", price:"351 000 so`m", monthly:"dan 40 950 UZS/oyiga",img:"23n.jpg"},
+              {title:"Novey P50 (Qora-Qizil)",price:"351 000 so`m", monthly: "dan 40 950 UZS/oyiga",img:"24n.jpg"},
+              {title:"Novey P40 (Qora)" ,price: "312 000",monthly:"dan 36 400 UZS/oyiga", img:"25n.jpg"},
+              {title: "Novey P30 (Choco)", price:"312 000 so`m", monthly:"dan 36 400 UZS/oyiga", img: "26n.jpg"},
+              {title:"Novey P30 (Qora)", price:"312 000 so`m",monthly:"dan 36 400 UZS/oyiga",img:"27n.jpg"},
+              {title:"Novey P30 (Kulrang)",price:"312 000 so`m",monthly:"dan 36 400 UZS/oyiga",img:"28n.jpg"},
+              {title:"Novey P20 (Kulrang)",price:"273 000 so`m",monthly:"dan 31 850 UZS/oyiga",img:"29n.jpg"},
+              {title:"Novey P20 (Qora-Qizil)",price:"273 000 so`m", monthly:"dan 31 850 UZS/oyiga", img:"30n.jpg"},
+              
+            ];
+  
+          let currentPage = 1;
+          const phonesPerPage = 30; // Har bir sahifada ko'rsatiladigan telefonlar soni
+  
+  
+          // Function to display products based on current page
+         // Function to display products based on current page
+  function displayProducts(page) {
+      const startIndex = (page - 1) * itemsPerPage;
+      const endIndex = startIndex + itemsPerPage;
+      const currentProducts = products.slice(startIndex, endIndex);
+  
+      // Clear the previous content
+      const productContainer = document.getElementById("product-container");
+      productContainer.innerHTML = "";
+  
+      currentProducts.forEach(product => {
+          const card = `
+              <div class="card">
+                  <img src="${product.img}" class="card-img-top" alt="${product.title}">
+                  <div class="card-body">
+                      <h5 class="card-title">${product.title}</h5>
+                      <p class="card-text">${product.price}</p>
+                      <p class="card-text">${product.monthly}</p>
+                      <a href="#" class="btn btn-primary">SAVATGA</a>
+                  </div>
+              </div>
+          `;
+          productContainer.innerHTML += card;
+      });
+  }
+  
+  
+          // Function to generate pagination
+          function generatePagination() {
+              const pageCount = Math.ceil(products.length / itemsPerPage);
+              const paginationContainer = document.getElementById("pagination");
+              paginationContainer.innerHTML = "";
+  
+              for (let i = 1; i <= pageCount; i++) {
+                  const pageItem = `
+                      <li class="page-item ${i === currentPage ? 'active' : ''}">
+                          <a class="page-link" href="#" onclick="goToPage(${i})">${i}</a>
+                      </li>
+                  `;
+                  paginationContainer.innerHTML += pageItem;
+              }
+          }
+  
+          // Function to go to the selected page
+          function goToPage(page) {
+              currentPage = page;
+              displayProducts(currentPage);
+              generatePagination();
+          }
+  
+          // Initial display
+          displayProducts(currentPage);
+          generatePagination();
+      </script>
+  </body>
+  </html>
+

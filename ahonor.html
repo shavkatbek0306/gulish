@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HONOR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="/images/bank_pay.png">
+    <style>
+      /* Mahsulotlar konteyneri uchun */
+      #product-container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px; /* Kartalar orasidagi bo'shliq */
+          justify-content: space-between; /* Karta orasida bo'sh joyni taqsimlash */
+      }
+  
+      /* Har bir card (telefon kartasi) uchun */
+      .card {
+          width: calc(33.333% - 20px); /* Har bir card 3 ta ustundan bo'ladi, bo'shliqni hisobga olgan holda */
+          margin-bottom: 20px;
+      }
+  
+      /* Agar ekran kichik bo'lsa, 2 ta karta bo'lishini ta'minlash */
+      @media (max-width: 992px) {
+          .card {
+              width: calc(50% - 20px); /* Ekran kichik bo'lsa, har qatorda 2 ta card bo'ladi */
+          }
+      }
+  
+      /* Agar ekran juda kichik bo'lsa, 1 ta karta bo'lishi kerak */
+      @media (max-width: 576px) {
+          .card {
+              width: 100%; /* Ekran juda kichik bo'lsa, bitta card bo'ladi */
+          }
+      }
+  </style>
+  
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>HONOR</h1>
+        <form>
+            <input type="text" name="search" placeholder="Search.." class="form-control">
+        </form>
+
+        <!-- Product cards container -->
+        <div id="product-container" class="card-group">
+           
+            
+            <div class="card-group">
+                <div class="card">
+                  <img src="images/1h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text">Honor 200 lite 8/256 GB (Moviy)</p>
+                    <p class="card-text"> 3 448 000 so`m</p>
+                    <p class="card-text">dan 402 267 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/2h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text">Honor 200 lite 8/256 GB (Qora)</p>
+                    <p class="card-text">3 448 000 so`m</p>
+                    <p class="card-text">dan 402 267 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/3h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Honor</h5>
+                      <p class="card-text">Honor 200 lite 8/256 GB (Ko`k)</p>
+                      <p class="card-text"> 3 448 000 so`m</p>
+                      <p class="card-text">dan 402 267 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/5h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-tex">Honor X6b 6/256 GB (Qora)</p>
+                    <p class="card-text"> 1 868 000 so`m</p>
+                    <p class="card-text">dan 217 933 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/4h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text"> Honor X8b 6/256 GB (Qora)</p>
+                    <p class="card-text"> 2 997 000 so`m</p>
+                    <p class="card-text">dan 349 650 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/6h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Honor</h5>
+                      <p class="card-text">Honor X8b 6/256 GB (Kumush rang)</p>
+                      <p class="card-text">2 997 000 so`m</p>
+                      <p class="card-text">dan 349 650 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/7h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text">Honor X8b 6/256 GB (Yashil rang)</p>
+                    <p class="card-text">  2 997 000 so`m</p>
+                    <p class="card-text">dan 349 650 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/8h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text"> Honor X9b 12/256 GB (Qora)</p>
+                    <p class="card-text"> 4 197 000 so`m</p>
+                    <p class="card-text">dan 186 433 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/9h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Honor</h5>
+                      <p class="card-text">Honor X7b 8/256 GB (Yashil rang) </p>
+                      <p class="card-text"> 2 463 000 so`m</p>
+                      <p class="card-text">dan 287 350 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/5h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text">Honor X6b 4/128 GB (Qora)</p>
+                    <p class="card-text">  1 598 000 so`m</p>
+                    <p class="card-text">dan 186 433 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/10h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text"> Honor X6b 4/128 GB (Yashil)</p>
+                    <p class="card-text">  1 598 000 so`m</p>
+                    <p class="card-text">dan 186 433 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/11h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Honor</h5>
+                      <p class="card-text">Honor 200 Pro 12/512 GB (Qora) </p>
+                      <p class="card-text"> 7 826 000 so`m</p>
+                      <p class="card-text">dan 913 033 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/12h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text">Honor 200 Pro 12/512 GB (Okean moviy)</p>
+                    <p class="card-text"> 7 826 000 so`m</p>
+                    <p class="card-text">dan 913 033 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/13h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text">Honor 200 Pro 8/256 GB (Oq)</p>
+                    <p class="card-text">  5 543 000 so`m</p>
+                    <p class="card-text">dan 646 683 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/11h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Honor</h5>
+                      <p class="card-text">Honor 200 8/256 GB (Qora) </p>
+                      <p class="card-text"> 5 543 000 so`m</p>
+                      <p class="card-text">dan 646 683 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/8h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text"> Honor X9b 8/256 GB (Qora) </p>
+                    <p class="card-text">  3 823 000 so`m</p>
+                    <p class="card-text">dan 446 017 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/14h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text">Honor X9b 8/256 GB (Yashil)</p>
+                    <p class="card-text">  3 823 000 so`m</p>
+                    <p class="card-text">dan 446 017 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/4h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Honor</h5>
+                      <p class="card-text">Honor X8b 8/128 GB (Qora) </p>
+                      <p class="card-text"> 2 861 000 so`m</p>
+                      <p class="card-text">dan 333 783 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+            <div class="card-group">
+                <div class="card">
+                  <img src="images/6h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text">Honor X8b 8/128 GB (Kumush rang) </p>
+                    <p class="card-text">  2 861 000 so`m</p>
+                    <p class="card-text">dan 333 783 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/15h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text"> Honor X7c 8/256 GB (Oq rang)</p>
+                    <p class="card-text">  2 463 000 so`m</p>
+                    <p class="card-text">dan 287 350 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/16h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Honor</h5>
+                      <p class="card-text">Honor X7c 8/256 GB (Qora rang) </p>
+                      <p class="card-text"> 2 463 000 so`m</p>
+                      <p class="card-text">dan 287 350 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/15h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text">Honor X7c 6/128 GB (Oq rang) </p>
+                    <p class="card-text">  2 130 000 so`m</p>
+                    <p class="card-text">dan 248 500 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/9h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text"> Honor X7c 8/256 GB (Yashil rang)</p>
+                    <p class="card-text">  2 463 000 so`m</p>
+                    <p class="card-text">dan 287 350 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/16h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Honor</h5>
+                      <p class="card-text">Honor X7c 6/128 GB (Qora rang) </p>
+                      <p class="card-text"> 2 130 000 so`m</p>
+                      <p class="card-text">dan 248 500 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/17h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text">Honor X5b 4/64 GB (Moviy) </p>
+                    <p class="card-text">  1 348 000 so`m</p>
+                    <p class="card-text">dan 157 267 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/18h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text"> Honor X5b 4/64 GB (Qora)</p>
+                    <p class="card-text"> 1 348 000 so`m</p>
+                    <p class="card-text">dan 157 267 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/17h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Honor</h5>
+                      <p class="card-text">Honor X5b Plus 4/128 GB (Moviy) </p>
+                      <p class="card-text"> 1 484 000 so`m</p>
+                      <p class="card-text">dan 173 133 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="card-group">
+                <div class="card">
+                  <img src="images/18h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text">Honor X5b Plus 4/128 GB (Qora) </p>
+                    <p class="card-text">  1 484 000 so`m</p>
+                    <p class="card-text">dan 173 133 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/19h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartfon Honor</h5>
+                    <p class="card-text"> Honor 200 12/512 GB (Oq)</p>
+                    <p class="card-text"> 6 396 000 so`m</p>
+                    <p class="card-text">dan 746 200 UZS / oyiga</p>
+                    <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/20h.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Smartfon Honor</h5>
+                      <p class="card-text">Honor 200 12/512 GB (Qora) </p>
+                      <p class="card-text"> 6 396 000 so`m</p>
+                      <p class="card-text">dan 746 200 UZS / oyiga</p>
+                      <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+                  </div>
+                </div>
+              </div>
+        
+        
+        
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            
+        </div>
+
+        <div class="pagination">
+            <button onclick="showPage(1)"><a href="ahonor.html">1</a></button>
+            <button onclick="showPage(2)"><a href="bhonor.html">keyingi sahifa</a></button>
+            
+        </div>
+    
+          <nav>
+            <ul class="pagination" id="pagination"></ul>
+        </nav>
+  
+          <!-- Pagination -->
+          
+      </div>
+  
+      <script>
+          // Product data
+          const products = [
+          {title: "Honor 200 lite 8/256 GB (Moviy)", price:" 3 448 000 so`m",monthly:"dan 402 267 UZS/oyiga", img:"1h.jpg"},
+          {title: "Honor 200 lite 8/256 GB (Qora)", price:"3 448 000 so`m", monthly:"dan 402 267 UZS/oyiga", img: "2h.jpg"},
+          {title: "Honor 200 lite 8/256 GB (Ko`k)", price:"3 448 000 so`m", monthly: "dan 402 267 UZS/oyiga", img: "3h.jpg"},
+          {title: "Honor X6b 6/256 GB (Qora)" , price: "1 868 000 so`m", monthly: "dan 217 933 UZS/oyiga", img: "5h.jpg"},
+          {title: "Honor X8b 6/256 GB (Qora)" , price:"2 997 000 so`m", monthly: "dan 349 650 UZS/oyiga", img:"4h.jpg"},
+         {title:"Honor X8b 6/256 GB (Kumush Rang)", price: "2 997 000 so`m", monthly: "dan 349 650 UZS/oyiga", img:"6h.jpg"}, 
+          {title:"Honor X8b 6/256 GB (Yashil rang)", price: "2 997 000 so`m", monthly: "dan 349 650 UZS/oyiga", img:"7h.jpg"},
+          {title:" Honor X9b 12/256 GB (Qora)", price: " 4 197  000 so`m", monthly: "dan 186 433 UZS/oyiga", img:"8h.jpg"},
+          {title:"Honor X7b 8/256 GB (Yashil rang)", price: "2 463 000 so`m", monthly: "dan 287 350 UZS/oyiga", img:"9h.jpg"},
+           {title:"Honor X6b 4/128 GB (Qora)", price: "1 598 000 so`m", monthly: "dan 186 433 UZS/oyiga", img:"5h.jpg"},
+           {title:"Honor X6b 4/128 GB (Yashil)", price: "1 598 000 so`m", monthly: "dan 186 433 UZS/oyiga", img:"10h.jpg"},
+            {title:"Honor 200 Pro 12/512 GB (Qora)", price: "7 826 000 so`m", monthly: "dan 913 033 UZS/oyiga", img:"11h.jpg"},
+          { title: "Honor 200 Pro 12/512 GB (Okean moviy)", price: "7 826 000 so`m", monthly: "dan 913 033 UZS / oyiga", img: "12h.jpg" },
+              { title: "Honor 200 Pro 8/256 GB (Oq)", price: "5 543 000 so`m", monthly: "dan 646 683 UZS / oyiga", img: "13h.jpg" },
+              { title: "Honor 200 Pro 8/256 GB (Qora)", price: "5 543 000 so`m", monthly: "dan 646 683 UZS / oyiga", img: "11h.jpg" },
+              { title: "Honor X9b 8/256 GB (Qora)", price: "3 823 000 so`m", monthly: "dan 446 017 UZS / oyiga", img: "8h.jpg" },
+              { title: "Honor X9b 8/256 GB (Yashil)", price: "3 823 000 so`m", monthly: "dan 446 017 UZS / oyiga", img: "14h.jpg" },
+              { title: "Honor X8b 8/128 GB (Qora)", price: "2 861 000 so`m", monthly: "dan 333 783 UZS / oyiga", img: "4h.jpg" },
+              { title: "Honor X8b 8/128 GB (Kumush rang)", price: "2 861 000 so`m", monthly: "dan 333 473 UZS / oyiga", img: "6h.jpg" },
+              { title: "Honor X7c 8/256 GB (Oq rang)", price: "2 463 000 so`m", monthly: "dan 287 350 UZS / oyiga", img: "15h.jpg" },
+              { title: "Honor X7c 8/256 GB (Qora rang)", price: "2 463 000 so`m", monthly: "dan 287 350 UZS / oyiga", img: "16h.jpg" },
+              {title: "Honor X7c 6/128 GB (Oq rang)", price:"2 130 000 so`m",monthly:"dan 248 500 UZS/oyiga", img:"15h.jpg"},
+              {title:"Honor X7c 8/256 GB (Yashil rang)", price:"2 463 000 so`m", monthly:"dan 287 350 UZS/oyiga",img:"9h.jpg"},
+              {title:"Honor X7c 6/128 GB (Qora rang)",price:"2 130 000 so`m", monthly: "dan 248 500 UZS/oyiga",img:"16h.jpg"},
+              {title:"Honor X5b 4/64 GB (Moviy)",price:"1 348 000 so`m",monthly:"dan 157 267 UZS/oyiga", img:"17h.jpg"},
+              {title: "Honor X5b 4/64 GB (Qora)", price:"1 348 000 so`m", monthly:"dan 157 267 UZS/oyiga", img: "18h.jpg"},
+              {title:"Honor X5b Plus 4/128 GB (Moviy)", price:"1 484 000 so`m",monthly:"dan 173 133 UZS/oyiga",img:"17h.jpg"},
+              {title:"Honor X5b Plus 4/128 GB (Qora)",price:"1 484 000 so`m",monthly:"dan 173 133 UZS/oyiga",img:"18h.jpg"},
+              {title:"Honor 200 12/512 GB (Oq)",price:"6 396 000 so`m",monthly:"dan 746 200 UZS/oyiga",img:"19h.jpg"},
+              {title:"Honor 200 12/512 GB (Qora)",price:"6 396 000 so`m", monthly:"dan 746 200 UZS/oyiga", img:"20h.jpg"},
+              
+            ];
+  
+          let currentPage = 1;
+          const phonesPerPage = 30; // Har bir sahifada ko'rsatiladigan telefonlar soni
+  
+  
+          // Function to display products based on current page
+         // Function to display products based on current page
+  function displayProducts(page) {
+      const startIndex = (page - 1) * itemsPerPage;
+      const endIndex = startIndex + itemsPerPage;
+      const currentProducts = products.slice(startIndex, endIndex);
+  
+      // Clear the previous content
+      const productContainer = document.getElementById("product-container");
+      productContainer.innerHTML = "";
+  
+      currentProducts.forEach(product => {
+          const card = `
+              <div class="card">
+                  <img src="${product.img}" class="card-img-top" alt="${product.title}">
+                  <div class="card-body">
+                      <h5 class="card-title">${product.title}</h5>
+                      <p class="card-text">${product.price}</p>
+                      <p class="card-text">${product.monthly}</p>
+                      <a href="#" class="btn btn-primary">SAVATGA</a>
+                  </div>
+              </div>
+          `;
+          productContainer.innerHTML += card;
+      });
+  }
+  
+  
+          // Function to generate pagination
+          function generatePagination() {
+              const pageCount = Math.ceil(products.length / itemsPerPage);
+              const paginationContainer = document.getElementById("pagination");
+              paginationContainer.innerHTML = "";
+  
+              for (let i = 1; i <= pageCount; i++) {
+                  const pageItem = `
+                      <li class="page-item ${i === currentPage ? 'active' : ''}">
+                          <a class="page-link" href="#" onclick="goToPage(${i})">${i}</a>
+                      </li>
+                  `;
+                  paginationContainer.innerHTML += pageItem;
+              }
+          }
+  
+          // Function to go to the selected page
+          function goToPage(page) {
+              currentPage = page;
+              displayProducts(currentPage);
+              generatePagination();
+          }
+  
+          // Initial display
+          displayProducts(currentPage);
+          generatePagination();
+      </script>
+  </body>
+  </html>
+

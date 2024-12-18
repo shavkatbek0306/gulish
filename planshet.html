@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGMACHALI TELEFONLAR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="/images/bank_pay.png">
+    <style>
+      /* Mahsulotlar konteyneri uchun */
+      #product-container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px; /* Kartalar orasidagi bo'shliq */
+          justify-content: space-between; /* Karta orasida bo'sh joyni taqsimlash */
+      }
+  
+      /* Har bir card (telefon kartasi) uchun */
+      .card {
+          width: calc(33.333% - 20px); /* Har bir card 3 ta ustundan bo'ladi, bo'shliqni hisobga olgan holda */
+          margin-bottom: 20px;
+      }
+  
+      /* Agar ekran kichik bo'lsa, 2 ta karta bo'lishini ta'minlash */
+      @media (max-width: 992px) {
+          .card {
+              width: calc(50% - 20px); /* Ekran kichik bo'lsa, har qatorda 2 ta card bo'ladi */
+          }
+      }
+  
+      /* Agar ekran juda kichik bo'lsa, 1 ta karta bo'lishi kerak */
+      @media (max-width: 576px) {
+          .card {
+              width: 100%; /* Ekran juda kichik bo'lsa, bitta card bo'ladi */
+          }
+      }
+  </style>
+  
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>TUGMACHALI TELEFONLAR</h1>
+        <form>
+            <input type="text" name="search" placeholder="Search.." class="form-control">
+        </form>
+
+        <!-- Product cards container -->
+        <div id="product-container" class="card-group">
+           
+            
+          <div class="card-group">
+            <div class="card">
+              <img src="images/1p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Planshet </h5>
+                <p class="card-text">  HUAWEI Matepad 10 4/64 GB (Kulrang)</p>
+                <p class="card-text"> 3 835 000 so`m</p>
+                <p class="card-text">dan 447 417 UZS / oyiga</p>
+                <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+          
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/2p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Planshet </h5>
+                <p class="card-text"> HUAWEI Matepad 10 4/64 GB (Qora)</p>
+                <p class="card-text">3 185 000 so`m</p>
+                <p class="card-text">dan 371 583 UZS / oyiga</p>
+                <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/3p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title"> Planshet </h5>
+                  <p class="card-text"> Planshet Oukitel OT6 4/64 (Kulrang)</p>
+                  <p class="card-text"> 1 495 000 so`m</p>
+                  <p class="card-text">dan 174 417 UZS / oyiga</p>
+                  <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+          
+          
+          <div class="card-group">
+            <div class="card">
+              <img src="images/4p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Planshet </h5>
+                <p class="card-text">  Planshet Samsung SMX 115 Galaxy Tab A9 4/64 GB (Qora Grafit)</p>
+                <p class="card-text"> 2 645 000 so`m</p>
+                <p class="card-text">dan 308 583 UZS / oyiga</p>
+                <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+          
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/5p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Planshet </h5>
+                <p class="card-text"> Planshet Samsung Galaxy Tab A8 3/32 GB (Qora)</p>
+                <p class="card-text"> 2 962 000 so`m</p>
+                <p class="card-text">dan 345 567 UZS / oyiga</p>
+                <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/5p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title"> Planshet </h5>
+                  <p class="card-text"> Planshet Samsung Galaxy Tab A8 4/64 (Qora)</p>
+                  <p class="card-text"> 3 071 000 so`m</p>
+                  <p class="card-text">dan 358 283 UZS / oyiga</p>
+                  <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+            <div class="card-group">
+            <div class="card">
+              <img src="images/8p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Planshet </h5>
+                <p class="card-text"> Samsung Galaxy Tab S9 FE 6/128 GB (Qora Gray)</p>
+                <p class="card-text"> 6 240 000 so`m</p>
+                <p class="card-text">dan 728 000 UZS / oyiga</p>
+                <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+          
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/9p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Planshet </h5>
+                <p class="card-text"> Planshet Samsung Galaxy S9 Ultra 12/256 GB (Qora)</p>
+                <p class="card-text"> 13 718 000 so`m</p>
+                <p class="card-text">dan 1 600 433 UZS / oyiga</p>
+                <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/10p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title"> Planshet </h5>
+                  <p class="card-text"> Planshet Samsung Galaxy Tab A9+ 8/128 Gb (ko`k)</p>
+                  <p class="card-text"> 4 433 000 so`m</p>
+                  <p class="card-text">dan 517 183 UZS / oyiga</p>
+                  <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+          <div class="card-group">
+            <div class="card">
+              <img src="images/10p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Planshet </h5>
+                <p class="card-text"> Samsung Galaxy Tab A9+ 4/64 GB (Qora Gray)</p>
+                <p class="card-text"> 3 432 000 so`m</p>
+                <p class="card-text">dan 400 400 UZS / oyiga</p>
+                <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+          
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/11p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Planshet </h5>
+                <p class="card-text"> Planshet Samsung Galaxy Tab A9+ 4/64 GB (oq)</p>
+                <p class="card-text"> 3 432 000 so`m</p>
+                <p class="card-text">dan 400 400 UZS / oyiga</p>
+                <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/12p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title"> Planshet </h5>
+                  <p class="card-text"> Planshet Samsung Galaxy Tab A7 Lite LTE SM-T225 3/32 Gb (Gray)</p>
+                  <p class="card-text"> 2 015 000 so`m</p>
+                  <p class="card-text">dan 235 083 UZS / oyiga</p>
+                  <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+          
+          <div class="card-group">
+            <div class="card">
+              <img src="images/13p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Planshet </h5>
+                <p class="card-text"> Xiaomi Pad 6 8/256 GB (Moviy)</p>
+                <p class="card-text"> 4 160 000 so`m</p>
+                <p class="card-text">dan 485 333 UZS / oyiga</p>
+                <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+          
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/14p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Planshet </h5>
+                <p class="card-text">Xiaomi Pad 6 8/256 GB (Oltin)</p>
+                <p class="card-text"> 4 160 000 so`m</p>
+                <p class="card-text">dan 485 333 UZS / oyiga</p>
+                <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/13p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title"> Planshet </h5>
+                  <p class="card-text">Xiaomi Pad 6 8/128 GB (Moviy)</p>
+                  <p class="card-text"> 4 095 000 so`m</p>
+                  <p class="card-text">dan 477 750 UZS / oyiga</p>
+                  <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+          <div class="card-group">
+            <div class="card">
+              <img src="images/13p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Planshet </h5>
+                <p class="card-text"> Xiaomi Pad 6 6/128 GB (Moviy)</p>
+                <p class="card-text"> 3 958 000 so`m</p>
+                <p class="card-text">dan 461 767 UZS / oyiga</p>
+                <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+          
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/15p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Planshet </h5>
+                <p class="card-text"> Planshet Xiaomi Pad 5 6/128 GB Asia Version (Qora)</p>
+                <p class="card-text"> 3 770 000 so`m</p>
+                <p class="card-text">dan 439 833 UZS / oyiga</p>
+                <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/16p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title"> Planshet </h5>
+                  <p class="card-text">Xiaomi Pad 6 6/128 GB (Qora)</p>
+                  <p class="card-text"> 3 958 000 so`m</p>
+                  <p class="card-text">dan 461 767 UZS / oyiga</p>
+                  <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card-group">
+            <div class="card">
+              <img src="images/20p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Planshet </h5>
+                <p class="card-text"> Xiaomi Redmi Pad Se  8/256 GB (Moviy)</p>
+                <p class="card-text"> 2 470 000 so`m</p>
+                <p class="card-text">dan 288 167 UZS / oyiga</p>
+                <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+          
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/21p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Planshet </h5>
+                <p class="card-text"> Planshet Xiaomi Pad Se 4/128 GB </p>
+                <p class="card-text"> 2 028 000 so`m</p>
+                <p class="card-text">dan 236 600 UZS / oyiga</p>
+                <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/22p.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title"> Planshet </h5>
+                  <p class="card-text">Xiaomi Pad Se 4/128 GB (Qora)</p>
+                  <p class="card-text"> 2 028 000 so`m</p>
+                  <p class="card-text">dan 236 600 UZS / oyiga</p>
+                  <li><a href="akkount.html" class="btn btn-primary">Buyurtma berish</a></li>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+            
+        
+        
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            
+        </div>
+
+        <div class="pagination">
+            <button onclick="showPage(1)"><a href="planshet.html">1</a></button>
+           
+            
+        </div>
+    
+          <nav>
+            <ul class="pagination" id="pagination"></ul>
+        </nav>
+  
+          <!-- Pagination -->
+          
+      </div>
+  
+      <script>
+          // Product data
+          const products = [
+          {title: "HUAWEI Matepad 10 4/64 GB (Kulrang)", price:" 3 835 000 so`m",monthly:"dan 447 417 UZS/oyiga", img:"images/1p.jpg"},
+          {title: "HUAWEI Matepad 10 4/64 GB (Qora)", price:"3 185 000 so`m", monthly:"dan 371 583 UZS/oyiga", img: "images/2p.jpg"},
+          {title: "Planshet Oukitel OT6 4/64 (Kulrang)", price:"1 495 000 so`m", monthly: "dan 371 583 UZS/oyiga", img: "images/3p.jpg"},
+          {title: "Planshet Samsung SMX 115 Galaxy Tab A9 4/64 GB (Qora Grafit)" , price: "2 645 000 so`m", monthly: "dan 308 583 UZS/oyiga", img: "images/4p.jpg"},
+          {title: "Planshet Samsung Galaxy Tab A9 3/32 GB (Qora)" , price:"2 962 000 so`m", monthly: "dan 345 567 UZS/oyiga", img:"images/5p.jpg"},
+         {title:"Planshet Samsung Galaxy Tab A8 4/64 (Qora)", price: "3 071 000 so`m", monthly: "dan 358 283 UZS/oyiga", img:"images/5p.jpg"}, 
+          {title:"Samsung Galaxy Tab S9 FE 6/128 GB (Qora Gray)", price: "6 240 000 so`m", monthly: "dan 728 000 UZS/oyiga", img:"images/8p.jpg"},
+          {title:"Planshet Samsung Galaxy S9 Ultra 12/256 GB (Qora)", price: "  13 718 000 so`m", monthly: "dan 1 600 433 UZS/oyiga", img:"images/9p.jpg"},
+          {title:"Planshet Samsung Galaxy Tab A9+ 8/128 GB (Ko`k)", price: "4 433 000 so`m", monthly: "dan 517 183 UZS/oyiga", img:"images/10p.jpg"},
+           {title:"Samsung Galaxy Tab A9+ 4/64 GB (Qora Gray)", price: "3 432 000 so`m", monthly: "dan 400 400 UZS/oyiga", img:"images/10p.jpg"},
+           {title:"Planshet Samsung Galaxy Tab A9+ 4/64 GB (oq)", price: "3 432 000 so`m", monthly: "dan 400 400 UZS/oyiga", img:"images/11p.jpg"},
+            {title:"Planshet Samsung Galaxy Tab A7 Lite LTE SM-T225 3/32 GB (Gray)", price: "2 015 000 so`m", monthly: "dan 235 083 UZS/oyiga", img:"images/12p.jpg"},
+          { title: "Xiaomi Pad 6 8/256 GB (Moviy) ", price: "4 160 000 so`m", monthly: "dan 485 333 UZS / oyiga", img: "images/13p.jpg" },
+              { title: "Xiaomi Pad 6 8/256 GB (Oltin)", price: "4 160  000 so`m", monthly: "dan 485 333 UZS / oyiga", img: "images/14p.jpg" },
+              { title: "Xiaomi Pad 6 8/128 GB (Moviy)", price: "4 095 000 so`m", monthly: "dan 477 750 UZS / oyiga", img: "images/13p.jpg" },
+              { title: "Xiaomi Pad 6 6/128 GB (Moviy)", price: "3 958 000 so`m", monthly: "dan 461 767 UZS / oyiga", img: "images/13p.jpg" },
+              { title: "Planshet Xiaomi Pad 5 6/128 GB Asia Version (Qora)", price: "3 770 000 so`m", monthly: "dan 439 833 UZS / oyiga", img: "images/15p.jpg" },
+              { title: "Xiaomi Pad 6 6/128 GB(Qora)", price: "3 958 000 so`m", monthly: "dan 461 767 UZS / oyiga", img: "images/16p.jpg" },
+              { title: "Xiaomi Pad Se 8/256 GB (Moviy)", price: "2 470 000 so`m", monthly: "dan 288 167 UZS / oyiga", img: "images/20p.jpg" },
+              { title: " Planshet Xiaomi Pad Se 4/128 GB ", price: "2 028 000 so`m", monthly: "dan 236 600 UZS / oyiga", img: "images/21p.jpg" },
+              { title: "Xiaomi Pad Se 4/128 GB (Qora)", price: "2 028 000 so`m", monthly: "dan 236 600 UZS / oyiga", img: "images/22p.jpg" },
+              
+              
+            ];
+  
+          let currentPage = 1;
+          const phonesPerPage = 30; // Har bir sahifada ko'rsatiladigan telefonlar soni
+  
+  
+          // Function to display products based on current page
+         // Function to display products based on current page
+  function displayProducts(page) {
+      const startIndex = (page - 1) * itemsPerPage;
+      const endIndex = startIndex + itemsPerPage;
+      const currentProducts = products.slice(startIndex, endIndex);
+  
+      // Clear the previous content
+      const productContainer = document.getElementById("product-container");
+      productContainer.innerHTML = "";
+  
+      currentProducts.forEach(product => {
+          const card = `
+              <div class="card">
+                  <img src="${product.img}" class="card-img-top" alt="${product.title}">
+                  <div class="card-body">
+                      <h5 class="card-title">${product.title}</h5>
+                      <p class="card-text">${product.price}</p>
+                      <p class="card-text">${product.monthly}</p>
+                      <a href="#" class="btn btn-primary">SAVATGA</a>
+                  </div>
+              </div>
+          `;
+          productContainer.innerHTML += card;
+      });
+  }
+  
+  
+          // Function to generate pagination
+          function generatePagination() {
+              const pageCount = Math.ceil(products.length / itemsPerPage);
+              const paginationContainer = document.getElementById("pagination");
+              paginationContainer.innerHTML = "";
+  
+              for (let i = 1; i <= pageCount; i++) {
+                  const pageItem = `
+                      <li class="page-item ${i === currentPage ? 'active' : ''}">
+                          <a class="page-link" href="#" onclick="goToPage(${i})">${i}</a>
+                      </li>
+                  `;
+                  paginationContainer.innerHTML += pageItem;
+              }
+          }
+  
+          // Function to go to the selected page
+          function goToPage(page) {
+              currentPage = page;
+              displayProducts(currentPage);
+              generatePagination();
+          }
+  
+          // Initial display
+          displayProducts(currentPage);
+          generatePagination();
+      </script>
+  </body>
+  </html>
+
